@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize";
-import { sequelizeConnect } from "../configs/connect.js";
+import { sequelizeConnect } from "../configs/connect";
 
 // Database connection
 const db = sequelizeConnect();
